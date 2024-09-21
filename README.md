@@ -1,6 +1,6 @@
 # 🐆 Ping Panther Website
 
-![Ping Panther Logo](https://pingpanther.io/images/logo.png)
+![Ping Panther Logo](https://pingpanther.io/images/logo.png?v=1)
 
 
 > 🚀 A comprehensive website monitoring solution with a sleek, cyber-themed interface.
