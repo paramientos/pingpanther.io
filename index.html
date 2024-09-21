@@ -3,73 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UptimeGuard - Comprehensive Website Monitoring Solution</title>
+    <title>Ping Panther - Comprehensive Website Monitoring Solution</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <style>
-        .bg-custom-green {
-            background-color: #2e7d32;
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Space Mono', monospace;
+            background-color: #0a192f;
+            color: #8892b0;
         }
-        .text-custom-green {
-            color: #2e7d32;
+        .bg-cyber-blue {
+            background-color: #0a192f;
         }
-        .hover\:bg-custom-green-dark:hover {
-            background-color: #1b5e20;
+        .text-cyber-green {
+            color: #64ffda;
         }
-        .hover\:text-custom-green-dark:hover {
-            color: #1b5e20;
+        .border-cyber-green {
+            border-color: #64ffda;
         }
-        .border-custom-green {
-            border-color: #2e7d32;
+        .hover\:bg-cyber-green:hover {
+            background-color: #64ffda;
+            color: #0a192f;
+        }
+        .neon-glow {
+            /*
+            text-shadow: 0 0 5px #64ffda, 0 0 10px #64ffda, 0 0 15px #64ffda, 0 0 20px #64ffda;
+            */
+        }
+        .cyber-grid {
+            background-image: linear-gradient(rgba(100, 255, 218, 0.1) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(100, 255, 218, 0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
         }
     </style>
 </head>
-<body class="bg-gray-50 font-sans">
-<header class="bg-white shadow-md fixed w-full z-10">
+<body class="bg-cyber-blue">
+<header class="bg-cyber-blue shadow-md fixed w-full z-10">
     <nav class="container mx-auto px-6 py-3">
         <div class="flex justify-between items-center">
             <div class="flex items-center">
-                <a href="#" class="text-3xl font-bold text-custom-green">UptimeGuard</a>
+                <a href="index.html" class="text-3xl font-bold text-cyber-green neon-glow">Ping Panther</a>
             </div>
             <div class="hidden md:flex items-center space-x-8">
-                <a href="#features" class="text-gray-700 hover:text-custom-green transition duration-300">Features</a>
-                <a href="#pricing" class="text-gray-700 hover:text-custom-green transition duration-300">Pricing</a>
-                <a href="#contact" class="text-gray-700 hover:text-custom-green transition duration-300">Contact</a>
+                <a href="index.html#features" class="nav-link text-gray-300 hover:text-cyber-green transition duration-300">Features</a>
+                <a href="index.html#how-it-works" class="nav-link text-gray-300 hover:text-cyber-green transition duration-300">How It
+                    Works</a>
+                <a href="index.html#pricing" class="nav-link text-gray-300 hover:text-cyber-green transition duration-300">Pricing</a>
+                <a href="/about-us.html" class="text-gray-300 hover:text-cyber-green transition duration-300">About
+                    Us</a>
+                <a href="/contact" class="text-gray-300 hover:text-cyber-green transition duration-300">Contact</a>
             </div>
             <div>
-                <a href="#" class="bg-custom-green text-white px-6 py-2 rounded-full font-semibold hover:bg-custom-green-dark transition duration-300">Get Started</a>
+                <a href="#"
+                   class="bg-transparent border border-cyber-green text-cyber-green px-6 py-2 rounded-full font-semibold hover:bg-cyber-green hover:text-cyber-blue transition duration-300">Get
+                    Started</a>
             </div>
         </div>
     </nav>
 </header>
 
 <main class="pt-16">
-    <section class="bg-gradient-to-r from-custom-green to-green-700 text-white py-24">
+    <section class="cyber-grid py-24">
         <div class="container mx-auto px-6 text-center">
-            <h1 class="text-5xl font-bold mb-4">Comprehensive Website Monitoring</h1>
-            <p class="text-xl mb-8">Keep your online presence bulletproof with our all-in-one monitoring solution</p>
-            <a href="#" class="bg-white text-custom-green px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300 inline-block">Start Your Free Trial</a>
+            <h1 class="text-5xl font-bold mb-4 text-cyber-green neon-glow">Comprehensive Website Monitoring</h1>
+            <p class="text-xl mb-8 text-gray-300">Keep your online presence bulletproof with our all-in-one monitoring
+                solution</p>
+            <a href="#"
+               class="bg-cyber-green text-cyber-blue px-8 py-3 rounded-full font-semibold hover:bg-transparent hover:text-cyber-green hover:border hover:border-cyber-green transition duration-300">Start
+                Your Free Trial</a>
         </div>
     </section>
 
     <section id="features" class="py-20">
         <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-16">Powerful Features</h2>
+            <h2 class="text-4xl font-bold text-center mb-16 text-cyber-green">Powerful Features</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
-                    <i class="fas fa-globe text-4xl text-custom-green mb-4"></i>
-                    <h3 class="text-xl font-semibold mb-2">Website Monitoring</h3>
+                <div class="bg-cyber-blue p-6 rounded-lg border border-cyber-green hover:shadow-lg hover:shadow-cyber-green transition duration-300">
+                    <i class="fas fa-globe text-4xl text-cyber-green mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-300">Website Monitoring</h3>
                     <p>24/7 uptime monitoring with instant alerts</p>
                 </div>
-                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
-                    <i class="fas fa-lock text-4xl text-custom-green mb-4"></i>
-                    <h3 class="text-xl font-semibold mb-2">SSL Monitoring</h3>
+                <div class="bg-cyber-blue p-6 rounded-lg border border-cyber-green hover:shadow-lg hover:shadow-cyber-green transition duration-300">
+                    <i class="fas fa-lock text-4xl text-cyber-green mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-300">SSL Monitoring</h3>
                     <p>Track SSL certificate expiration and issues</p>
                 </div>
-                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
-                    <i class="fas fa-calendar-alt text-4xl text-custom-green mb-4"></i>
-                    <h3 class="text-xl font-semibold mb-2">Domain Expiration Monitoring</h3>
+                <div class="bg-cyber-blue p-6 rounded-lg border border-cyber-green hover:shadow-lg hover:shadow-cyber-green transition duration-300">
+                    <i class="fas fa-calendar-alt text-4xl text-cyber-green mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-300">Domain Expiration Monitoring</h3>
                     <p>Never miss a domain renewal deadline</p>
                 </div>
                 <!-- Other feature boxes... -->
@@ -77,97 +101,179 @@
         </div>
     </section>
 
-    <section class="bg-gray-100 py-20">
+    <section id="how-it-works" class="bg-cyber-blue py-20 cyber-grid">
         <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-16">Integrations</h2>
+            <h2 class="text-4xl font-bold text-center mb-16 text-cyber-green">How Ping Panther Works</h2>
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-8">
+                <div class="bg-cyber-blue p-6 rounded-lg border border-cyber-green text-center max-w-sm">
+                    <i class="fas fa-plus-circle text-5xl text-cyber-green mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-300">1. Add Your Websites</h3>
+                    <p>Simply add the URLs you want to monitor to your Ping Panther dashboard.</p>
+                </div>
+                <div class="bg-cyber-blue p-6 rounded-lg border border-cyber-green text-center max-w-sm">
+                    <i class="fas fa-cogs text-5xl text-cyber-green mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-300">2. Configure Alerts</h3>
+                    <p>Set up your preferred alert methods and customize monitoring intervals.</p>
+                </div>
+                <div class="bg-cyber-blue p-6 rounded-lg border border-cyber-green text-center max-w-sm">
+                    <i class="fas fa-chart-line text-5xl text-cyber-green mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-300">3. Monitor & Analyze</h3>
+                    <p>We'll keep an eye on your sites 24/7 and provide detailed performance analytics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16 text-cyber-green">What Our Customers Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-cyber-blue p-6 rounded-lg border border-cyber-green">
+                    <p class="mb-4 text-gray-300">"Ping Panther has been a game-changer for our business. We've
+                        significantly reduced our website downtime."</p>
+                    <p class="font-semibold text-cyber-green">- John Doe, CEO of TechCorp</p>
+                </div>
+                <div class="bg-cyber-blue p-6 rounded-lg border border-cyber-green">
+                    <p class="mb-4 text-gray-300">"The detailed reports and instant alerts have helped us optimize our
+                        website performance."</p>
+                    <p class="font-semibold text-cyber-green">- Jane Smith, CTO of E-commerce Giant</p>
+                </div>
+                <div class="bg-cyber-blue p-6 rounded-lg border border-cyber-green">
+                    <p class="mb-4 text-gray-300">"Ping Panther's customer support is top-notch. They're always there
+                        when we need them."</p>
+                    <p class="font-semibold text-cyber-green">- Mike Johnson, IT Manager</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-cyber-blue py-20 cyber-grid">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16 text-cyber-green">Integrations</h2>
             <div class="flex flex-wrap justify-center items-center gap-8">
-                <i class="fab fa-slack text-6xl text-gray-600"></i>
-                <i class="fab fa-discord text-6xl text-gray-600"></i>
-                <i class="fab fa-microsoft text-6xl text-gray-600"></i>
-                <i class="far fa-envelope text-6xl text-gray-600"></i>
-                <i class="fas fa-mobile-alt text-6xl text-gray-600"></i>
-                <i class="fab fa-telegram text-6xl text-gray-600"></i>
-                <i class="fab fa-google text-6xl text-gray-600"></i>
+                <i class="fab fa-slack text-6xl text-cyber-green"></i>
+                <i class="fab fa-discord text-6xl text-cyber-green"></i>
+                <i class="fab fa-microsoft text-6xl text-cyber-green"></i>
+                <i class="far fa-envelope text-6xl text-cyber-green"></i>
+                <i class="fas fa-mobile-alt text-6xl text-cyber-green"></i>
+                <i class="fab fa-telegram text-6xl text-cyber-green"></i>
+                <i class="fab fa-google text-6xl text-cyber-green"></i>
             </div>
         </div>
     </section>
 
     <section id="pricing" class="py-20">
         <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-16">Simple Pricing</h2>
+            <h2 class="text-4xl font-bold text-center mb-16 text-cyber-green">Simple Pricing</h2>
             <div class="flex flex-col md:flex-row justify-center items-center md:items-stretch gap-8">
-                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300 w-full md:w-1/3">
-                    <h3 class="text-2xl font-semibold mb-4">Basic</h3>
-                    <p class="text-4xl font-bold mb-6">$29<span class="text-sm font-normal">/month</span></p>
-                    <ul class="mb-8 space-y-2">
-                        <li><i class="fas fa-check text-custom-green mr-2"></i>Up to 10 monitors</li>
-                        <li><i class="fas fa-check text-custom-green mr-2"></i>5-minute check interval</li>
-                        <li><i class="fas fa-check text-custom-green mr-2"></i>Email alerts</li>
-                        <li><i class="fas fa-check text-custom-green mr-2"></i>Basic reporting</li>
+                <div class="bg-cyber-blue p-8 rounded-lg border border-cyber-green hover:shadow-lg hover:shadow-cyber-green transition duration-300 w-full md:w-1/3">
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-300">Basic</h3>
+                    <p class="text-4xl font-bold mb-6 text-cyber-green">$29<span
+                            class="text-sm font-normal text-gray-300">/month</span></p>
+                    <ul class="mb-8 space-y-2 text-gray-300">
+                        <li><i class="fas fa-check text-cyber-green mr-2"></i>Up to 10 monitors</li>
+                        <li><i class="fas fa-check text-cyber-green mr-2"></i>5-minute check interval</li>
+                        <li><i class="fas fa-check text-cyber-green mr-2"></i>Email alerts</li>
+                        <li><i class="fas fa-check text-cyber-green mr-2"></i>Basic reporting</li>
                     </ul>
-                    <a href="#" class="block text-center bg-custom-green text-white px-6 py-3 rounded-full font-semibold hover:bg-custom-green-dark transition duration-300">Choose Plan</a>
+                    <a href="#"
+                       class="block text-center bg-cyber-green text-cyber-blue px-6 py-3 rounded-full font-semibold hover:bg-transparent hover:text-cyber-green hover:border hover:border-cyber-green transition duration-300">Choose
+                        Plan</a>
                 </div>
-                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300 w-full md:w-1/3 border-2 border-custom-green transform md:scale-105">
-                    <h3 class="text-2xl font-semibold mb-4">Pro</h3>
-                    <p class="text-4xl font-bold mb-6">$79<span class="text-sm font-normal">/month</span></p>
-                    <ul class="mb-8 space-y-2">
-                        <li><i class="fas fa-check text-custom-green mr-2"></i>Up to 50 monitors</li>
-                        <li><i class="fas fa-check text-custom-green mr-2"></i>1-minute check interval</li>
-                        <li><i class="fas fa-check text-custom-green mr-2"></i>All alert channels</li>
-                        <li><i class="fas fa-check text-custom-green mr-2"></i>Advanced reporting</li>
-                        <li><i class="fas fa-check text-custom-green mr-2"></i>API access</li>
+                <div class="bg-cyber-blue p-8 rounded-lg border border-cyber-green hover:shadow-lg hover:shadow-cyber-green transition duration-300 w-full md:w-1/3 transform md:scale-105">
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-300">Pro</h3>
+                    <p class="text-4xl font-bold mb-6 text-cyber-green">$79<span
+                            class="text-sm font-normal text-gray-300">/month</span></p>
+                    <ul class="mb-8 space-y-2 text-gray-300">
+                        <li><i class="fas fa-check text-cyber-green mr-2"></i>Up to 50 monitors</li>
+                        <li><i class="fas fa-check text-cyber-green mr-2"></i>1-minute check interval</li>
+                        <li><i class="fas fa-check text-cyber-green mr-2"></i>All alert channels</li>
+                        <li><i class="fas fa-check text-cyber-green mr-2"></i>Advanced reporting</li>
+                        <li><i class="fas fa-check text-cyber-green mr-2"></i>API access</li>
                     </ul>
-                    <a href="#" class="block text-center bg-custom-green text-white px-6 py-3 rounded-full font-semibold hover:bg-custom-green-dark transition duration-300">Choose Plan</a>
+                    <a href="#"
+                       class="block text-center bg-cyber-green text-cyber-blue px-6 py-3 rounded-full font-semibold hover:bg-transparent hover:text-cyber-green hover:border hover:border-cyber-green transition duration-300">Choose
+                        Plan</a>
                 </div>
-                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300 w-full md:w-1/3">
-                    <h3 class="text-2xl font-semibold mb-4">Enterprise</h3>
-                    <p class="text-4xl font-bold mb-6">Custom</p>
-                    <ul class="mb-8 space-y-2">
-                        <li><i class="fas fa-check text-custom-green mr-2"></i>Unlimited monitors</li>
-                        <li><i class="fas fa-check text-custom-green mr-2"></i>30-second check interval</li>
-                        <li><i class="fas fa-check text-custom-green mr-2"></i>Priority support</li>
-                        <li><i class="fas fa-check text-custom-green mr-2"></i>Custom integrations</li>
-                        <li><i class="fas fa-check text-custom-green mr-2"></i>Dedicated account manager</li>
+                <div class="bg-cyber-blue p-8 rounded-lg border border-cyber-green hover:shadow-lg hover:shadow-cyber-green transition duration-300 w-full md:w-1/3">
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-300">Enterprise</h3>
+                    <p class="text-4xl font-bold mb-6 text-cyber-green">Custom</p>
+                    <ul class="mb-8 space-y-2 text-gray-300">
+                        <li><i class="fas fa-check text-cyber-green mr-2"></i>Unlimited monitors</li>
+                        <li><i class="fas fa-check text-cyber-green mr-2"></i>30-second check interval</li>
+                        <li><i class="fas fa-check text-cyber-green mr-2"></i>Priority support</li>
+                        <li><i class="fas fa-check text-cyber-green mr-2"></i>Custom integrations</li>
+                        <li><i class="fas fa-check text-cyber-green mr-2"></i>Dedicated account manager</li>
                     </ul>
-                    <a href="#" class="block text-center bg-custom-green text-white px-6 py-3 rounded-full font-semibold hover:bg-custom-green-dark transition duration-300">Contact Us</a>
+
+
+                    <a href="#"
+                       class="block text-center bg-cyber-green text-cyber-blue px-6 py-3 rounded-full font-semibold hover:bg-transparent hover:text-cyber-green hover:border hover:border-cyber-green transition duration-300">Contact
+                        Us</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="bg-gray-100 py-20">
+    <section class="bg-cyber-blue text-gray-300 py-20 cyber-grid">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-4 text-cyber-green neon-glow">Ready to Secure Your Online Presence?</h2>
+            <p class="text-xl mb-8">Join thousands of satisfied customers who trust Ping Panther for their website
+                monitoring needs.</p>
+            <a href="#"
+               class="bg-cyber-green text-cyber-blue px-8 py-3 rounded-full font-semibold hover:bg-transparent hover:text-cyber-green hover:border hover:border-cyber-green transition duration-300">Start
+                Your Free Trial Now</a>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20">
         <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-16">Get In Touch</h2>
-            <form class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg">
+            <h2 class="text-4xl font-bold text-center mb-16 text-cyber-green">Get In Touch</h2>
+            <form class="max-w-lg mx-auto bg-cyber-blue p-8 rounded-lg border border-cyber-green">
                 <div class="mb-6">
-                    <label for="name" class="block mb-2 font-semibold">Name</label>
-                    <input type="text" id="name" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-custom-green" required>
+                    <label for="name" class="block mb-2 font-semibold text-gray-300">Name</label>
+                    <input type="text" id="name"
+                           class="w-full px-3 py-2 bg-cyber-blue border border-cyber-green rounded-lg focus:outline-none focus:ring-2 focus:ring-cyber-green text-gray-300"
+                           required>
                 </div>
                 <div class="mb-6">
-                    <label for="email" class="block mb-2 font-semibold">Email</label>
-                    <input type="email" id="email" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-custom-green" required>
+                    <label for="email" class="block mb-2 font-semibold text-gray-300">Email</label>
+                    <input type="email" id="email"
+                           class="w-full px-3 py-2 bg-cyber-blue border border-cyber-green rounded-lg focus:outline-none focus:ring-2 focus:ring-cyber-green text-gray-300"
+                           required>
                 </div>
                 <div class="mb-6">
-                    <label for="message" class="block mb-2 font-semibold">Message</label>
-                    <textarea id="message" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-custom-green" rows="4" required></textarea>
+                    <label for="message" class="block mb-2 font-semibold text-gray-300">Message</label>
+                    <textarea id="message"
+                              class="w-full px-3 py-2 bg-cyber-blue border border-cyber-green rounded-lg focus:outline-none focus:ring-2 focus:ring-cyber-green text-gray-300"
+                              rows="4" required></textarea>
                 </div>
-                <button type="submit" class="w-full bg-custom-green text-white px-6 py-3 rounded-full font-semibold hover:bg-custom-green-dark transition duration-300">Send Message</button>
+                <button type="submit"
+                        class="w-full bg-cyber-green text-cyber-blue px-6 py-3 rounded-full font-semibold hover:bg-transparent hover:text-cyber-green hover:border hover:border-cyber-green transition duration-300">
+                    Send Message
+                </button>
             </form>
         </div>
     </section>
 </main>
 
-<footer class="bg-gray-800 text-white py-8">
+<footer class="bg-cyber-blue text-gray-300 py-8 border-t border-cyber-green">
     <div class="container mx-auto px-6 text-center">
-        <p>&copy; 2024 UptimeGuard. All rights reserved.</p>
+        <p>&copy; 2024 Ping Panther. All rights reserved.</p>
+        <div class="mt-4">
+            <a href="#" class="text-gray-400 hover:text-cyber-green mx-2">Privacy Policy</a>
+            <a href="#" class="text-gray-400 hover:text-cyber-green mx-2">Terms of Service</a>
+            <a href="about-us.html" class="text-gray-400 hover:text-cyber-green mx-2">About Us</a>
+            <a href="contact.html" class="text-gray-400 hover:text-cyber-green mx-2">Contact</a>
+        </div>
     </div>
 </footer>
 
 <script>
-    $(document).ready(function() {
-        $('a[href^="#"]').on('click', function(event) {
+    $(document).ready(function () {
+        $('a[href^="#"]').on('click', function (event) {
             var target = $(this.getAttribute('href'));
-            if( target.length ) {
+            if (target.length) {
                 event.preventDefault();
                 $('html, body').stop().animate({
                     scrollTop: target.offset().top - 100
@@ -176,5 +282,45 @@
         });
     });
 </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        function setActiveLink() {
+            const hash = window.location.hash;
+            const pathname = window.location.pathname;
+
+            navLinks.forEach(link => {
+                link.classList.remove('text-cyber-green');
+                link.classList.remove('font-semibold');
+
+                if (link.getAttribute('href') === hash ||
+                    (link.getAttribute('href').startsWith('/') && link.getAttribute('href') === pathname)) {
+                    link.classList.add('text-cyber-green');
+                    link.classList.add('text-cyber-green font-semibold');
+                }
+            });
+        }
+
+        // Sayfa yüklendiğinde aktif linki ayarla
+        setActiveLink();
+
+        // Hash değiştiğinde aktif linki güncelle
+        window.addEventListener('hashchange', setActiveLink);
+
+        // Linkler tıklandığında aktif linki güncelle
+        navLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                if (this.getAttribute('href').startsWith('#')) {
+                    e.preventDefault();
+                    window.location.hash = this.getAttribute('href');
+                }
+                setActiveLink();
+            });
+        });
+    });
+</script>
+
 </body>
 </html>

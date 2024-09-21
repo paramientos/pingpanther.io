@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - UptimeGuard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Space Mono', monospace;
+            background-color: #0a192f;
+            color: #8892b0;
+        }
+        .bg-cyber-blue {
+            background-color: #0a192f;
+        }
+        .text-cyber-green {
+            color: #64ffda;
+        }
+        .border-cyber-green {
+            border-color: #64ffda;
+        }
+        .hover\:bg-cyber-green:hover {
+            background-color: #64ffda;
+            color: #0a192f;
+        }
+        .neon-glow {
+            /*
+            text-shadow: 0 0 5px #64ffda, 0 0 10px #64ffda, 0 0 15px #64ffda, 0 0 20px #64ffda;
+            */
+        }
+        .cyber-grid {
+            background-image: linear-gradient(rgba(100, 255, 218, 0.1) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(100, 255, 218, 0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+    </style>
+</head>
+<body class="bg-cyber-blue">
+<header class="bg-cyber-blue shadow-md fixed w-full z-10">
+    <nav class="container mx-auto px-6 py-3">
+        <div class="flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="index.html" class="text-3xl font-bold text-cyber-green neon-glow">Ping Panther</a>
+            </div>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="index.html#features" class="text-gray-300 hover:text-cyber-green transition duration-300">Features</a>
+                <a href="index.html#how-it-works" class="text-gray-300 hover:text-cyber-green transition duration-300">How It
+                    Works</a>
+                <a href="index.html#pricing" class="text-gray-300 hover:text-cyber-green transition duration-300">Pricing</a>
+                <a href="/about-us.html" class="text-gray-300 hover:text-cyber-green transition duration-300">About
+                    Us</a>
+                <a href="contact.html" class="text-cyber-green font-semibold">Contact</a>
+            </div>
+            <div>
+                <a href="#"
+                   class="bg-transparent border border-cyber-green text-cyber-green px-6 py-2 rounded-full font-semibold hover:bg-cyber-green hover:text-cyber-blue transition duration-300">Get
+                    Started</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="pt-24">
+    <section class="py-20 cyber-grid">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl font-bold text-center mb-8 text-cyber-green neon-glow">Contact Us</h1>
+            <div class="flex flex-col md:flex-row justify-between items-start">
+                <div class="w-full md:w-1/2 mb-8 md:mb-0">
+                    <h2 class="text-2xl font-semibold mb-4 text-cyber-green">Get in Touch</h2>
+                    <p class="mb-4 text-gray-300">We're here to help and answer any question you might have. We look forward to hearing from you!</p>
+                    <form class="space-y-4">
+                        <div>
+                            <label for="name" class="block mb-2 text-gray-300">Name</label>
+                            <input type="text" id="name" class="w-full px-3 py-2 bg-cyber-blue border border-cyber-green rounded-lg focus:outline-none focus:ring-2 focus:ring-cyber-green text-gray-300" required>
+                        </div>
+                        <div>
+                            <label for="email" class="block mb-2 text-gray-300">Email</label>
+                            <input type="email" id="email" class="w-full px-3 py-2 bg-cyber-blue border border-cyber-green rounded-lg focus:outline-none focus:ring-2 focus:ring-cyber-green text-gray-300" required>
+                        </div>
+                        <div>
+                            <label for="message" class="block mb-2 text-gray-300">Message</label>
+                            <textarea id="message" rows="4" class="w-full px-3 py-2 bg-cyber-blue border border-cyber-green rounded-lg focus:outline-none focus:ring-2 focus:ring-cyber-green text-gray-300" required></textarea>
+                        </div>
+                        <button type="submit" class="bg-cyber-green text-cyber-blue px-6 py-2 rounded-full font-semibold hover:bg-transparent hover:text-cyber-green hover:border hover:border-cyber-green transition duration-300">Send Message</button>
+                    </form>
+                </div>
+                <div class="w-full md:w-1/3">
+                    <h2 class="text-2xl font-semibold mb-4 text-cyber-green">Contact Information</h2>
+                    <div class="space-y-4 text-gray-300">
+                        <p><i class="fas fa-map-marker-alt text-cyber-green mr-2"></i> 123 Monitoring St, Server City, 12345</p>
+                        <p><i class="fas fa-phone text-cyber-green mr-2"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope text-cyber-green mr-2"></i> support@uptimeguard.com</p>
+                    </div>
+                    <h2 class="text-2xl font-semibold mt-8 mb-4 text-cyber-green">Follow Us</h2>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-cyber-green hover:text-cyber-green-dark"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="#" class="text-cyber-green hover:text-cyber-green-dark"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="#" class="text-cyber-green hover:text-cyber-green-dark"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="#" class="text-cyber-green hover:text-cyber-green-dark"><i class="fab fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-cyber-blue py-20 cyber-grid">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-8 text-cyber-green">Frequently Asked Questions</h2>
+            <div class="space-y-4">
+                <div class="bg-cyber-blue p-4 rounded-lg border border-cyber-green">
+                    <h3 class="font-semibold mb-2 text-cyber-green">How quickly do you send alerts?</h3>
+                    <p class="text-gray-300">We send alerts within seconds of detecting an issue with your website or service.</p>
+                </div>
+                <div class="bg-cyber-blue p-4 rounded-lg border border-cyber-green">
+                    <h3 class="font-semibold mb-2 text-cyber-green">Can I customize my monitoring intervals?</h3>
+                    <p class="text-gray-300">Yes, you can set custom monitoring intervals based on your specific needs and plan.</p>
+                </div>
+                <div class="bg-cyber-blue p-4 rounded-lg border border-cyber-green">
+                    <h3 class="font-semibold mb-2 text-cyber-green">Do you offer a free trial?</h3>
+                    <p class="text-gray-300">Yes, we offer a 14-day free trial for all new customers to test our services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-cyber-blue text-gray-300 py-20 cyber-grid">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-4 text-cyber-green neon-glow">Ready to Get Started?</h2>
+            <p class="text-xl mb-8">Join thousands of satisfied customers who trust UptimeGuard for their website monitoring needs.</p>
+            <a href="#" class="bg-cyber-green text-cyber-blue px-8 py-3 rounded-full font-semibold hover:bg-transparent hover:text-cyber-green hover:border hover:border-cyber-green transition duration-300">Start Your Free Trial</a>
+        </div>
+    </section>
+</main>
+
+<footer class="bg-cyber-blue text-gray-300 py-8 border-t border-cyber-green">
+    <div class="container mx-auto px-6 text-center">
+        <p>&copy; 2024 UptimeGuard. All rights reserved.</p>
+        <div class="mt-4">
+            <a href="#" class="text-gray-400 hover:text-cyber-green mx-2">Privacy Policy</a>
+            <a href="#" class="text-gray-400 hover:text-cyber-green mx-2">Terms of Service</a>
+            <a href="about-us.html" class="text-gray-400 hover:text-cyber-green mx-2">About Us</a>
+            <a href="contact.html" class="text-gray-400 hover:text-cyber-green mx-2">Contact</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

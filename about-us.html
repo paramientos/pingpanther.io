@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - UptimeGuard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Space Mono', monospace;
+            background-color: #0a192f;
+            color: #8892b0;
+        }
+        .bg-cyber-blue {
+            background-color: #0a192f;
+        }
+        .text-cyber-green {
+            color: #64ffda;
+        }
+        .border-cyber-green {
+            border-color: #64ffda;
+        }
+        .hover\:bg-cyber-green:hover {
+            background-color: #64ffda;
+            color: #0a192f;
+        }
+        .neon-glow {
+            /*
+            text-shadow: 0 0 5px #64ffda, 0 0 10px #64ffda, 0 0 15px #64ffda, 0 0 20px #64ffda;
+            */
+        }
+        .cyber-grid {
+            background-image: linear-gradient(rgba(100, 255, 218, 0.1) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(100, 255, 218, 0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+    </style>
+</head>
+<body class="bg-cyber-blue">
+<header class="bg-cyber-blue shadow-md fixed w-full z-10">
+    <nav class="container mx-auto px-6 py-3">
+        <div class="flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="index.html" class="text-3xl font-bold text-cyber-green neon-glow">Ping Panther</a>
+            </div>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="index.html#features" class="text-gray-300 hover:text-cyber-green transition duration-300">Features</a>
+                <a href="index.html#how-it-works" class="text-gray-300 hover:text-cyber-green transition duration-300">How It
+                    Works</a>
+                <a href="index.html#pricing" class="text-gray-300 hover:text-cyber-green transition duration-300">Pricing</a>
+                <a href="/about-us.html" class="text-cyber-green font-semibold">About
+                    Us</a>
+                <a href="/contact" class="text-gray-300 hover:text-cyber-green transition duration-300">Contact</a>
+            </div>
+            <div>
+                <a href="#"
+                   class="bg-transparent border border-cyber-green text-cyber-green px-6 py-2 rounded-full font-semibold hover:bg-cyber-green hover:text-cyber-blue transition duration-300">Get
+                    Started</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="pt-24">
+    <section class="py-20 cyber-grid">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl font-bold text-center mb-12 text-cyber-green neon-glow">About UptimeGuard</h1>
+
+            <div class="mb-16">
+                <h2 class="text-2xl font-semibold mb-4 text-cyber-green">Our Story</h2>
+                <p class="mb-4 text-gray-300">UptimeGuard was founded in 2018 by a group of passionate developers and system administrators who understood the critical importance of website uptime in today's digital landscape. We experienced firsthand the frustrations of unexpected downtime and the impact it can have on businesses and users alike.</p>
+                <p class="text-gray-300">Driven by our shared vision of creating a more reliable internet, we set out to build a comprehensive monitoring solution that would empower businesses of all sizes to maintain peak performance and availability for their online services.</p>
+            </div>
+
+            <div class="mb-16">
+                <h2 class="text-2xl font-semibold mb-4 text-cyber-green">Our Mission</h2>
+                <p class="text-gray-300">At UptimeGuard, our mission is to provide businesses with the tools and insights they need to ensure their online presence is always available, performant, and secure. We strive to:</p>
+                <ul class="list-disc list-inside mt-4 space-y-2 text-gray-300">
+                    <li>Deliver real-time, accurate monitoring data</li>
+                    <li>Offer proactive alerts to prevent potential issues</li>
+                    <li>Provide detailed analytics for informed decision-making</li>
+                    <li>Continuously innovate and improve our services</li>
+                    <li>Maintain the highest standards of reliability and security</li>
+                </ul>
+            </div>
+
+            <div class="mb-16">
+                <h2 class="text-2xl font-semibold mb-4 text-cyber-green">Our Team</h2>
+                <p class="mb-8 text-gray-300">Behind UptimeGuard is a dedicated team of professionals committed to delivering excellence in website monitoring and performance optimization.</p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="text-center bg-cyber-blue p-6 rounded-lg border border-cyber-green">
+                        <img src="/api/placeholder/150/150" alt="Jane Doe" class="rounded-full mx-auto mb-4">
+                        <h3 class="text-xl font-semibold mb-2 text-cyber-green">Jane Doe</h3>
+                        <p class="text-gray-300">Co-Founder & CEO</p>
+                    </div>
+                    <div class="text-center bg-cyber-blue p-6 rounded-lg border border-cyber-green">
+                        <img src="/api/placeholder/150/150" alt="John Smith" class="rounded-full mx-auto mb-4">
+                        <h3 class="text-xl font-semibold mb-2 text-cyber-green">John Smith</h3>
+                        <p class="text-gray-300">Co-Founder & CTO</p>
+                    </div>
+                    <div class="text-center bg-cyber-blue p-6 rounded-lg border border-cyber-green">
+                        <img src="/api/placeholder/150/150" alt="Emily Brown" class="rounded-full mx-auto mb-4">
+                        <h3 class="text-xl font-semibold mb-2 text-cyber-green">Emily Brown</h3>
+                        <p class="text-gray-300">Head of Customer Success</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="text-2xl font-semibold mb-4 text-cyber-green">Our Values</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-cyber-blue p-6 rounded-lg border border-cyber-green">
+                        <h3 class="text-xl font-semibold mb-2 text-cyber-green">Reliability</h3>
+                        <p class="text-gray-300">We understand the critical nature of uptime and strive to provide a service that our customers can always depend on.</p>
+                    </div>
+                    <div class="bg-cyber-blue p-6 rounded-lg border border-cyber-green">
+                        <h3 class="text-xl font-semibold mb-2 text-cyber-green">Innovation</h3>
+                        <p class="text-gray-300">We're constantly exploring new technologies and methodologies to improve our monitoring capabilities and user experience.</p>
+                    </div>
+                    <div class="bg-cyber-blue p-6 rounded-lg border border-cyber-green">
+                        <h3 class="text-xl font-semibold mb-2 text-cyber-green">Transparency</h3>
+                        <p class="text-gray-300">We believe in open communication with our customers, providing clear insights and honest feedback.</p>
+                    </div>
+                    <div class="bg-cyber-blue p-6 rounded-lg border border-cyber-green">
+                        <h3 class="text-xl font-semibold mb-2 text-cyber-green">Customer-Centric</h3>
+                        <p class="text-gray-300">Our customers' success is our success. We're dedicated to providing exceptional support and tailored solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-cyber-blue text-gray-300 py-20 cyber-grid">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-4 text-cyber-green neon-glow">Join the UptimeGuard Family</h2>
+            <p class="text-xl mb-8">Experience the peace of mind that comes with reliable, comprehensive website monitoring.</p>
+            <a href="#" class="bg-cyber-green text-cyber-blue px-8 py-3 rounded-full font-semibold hover:bg-transparent hover:text-cyber-green hover:border hover:border-cyber-green transition duration-300">Start Your Free Trial</a>
+        </div>
+    </section>
+</main>
+
+<footer class="bg-cyber-blue text-gray-300 py-8 border-t border-cyber-green">
+    <div class="container mx-auto px-6 text-center">
+        <p>&copy; 2024 UptimeGuard. All rights reserved.</p>
+        <div class="mt-4">
+            <a href="#" class="text-gray-400 hover:text-cyber-green mx-2">Privacy Policy</a>
+            <a href="#" class="text-gray-400 hover:text-cyber-green mx-2">Terms of Service</a>
+            <a href="about-us.html" class="text-gray-400 hover:text-cyber-green mx-2">About Us</a>
+            <a href="contact.html" class="text-gray-400 hover:text-cyber-green mx-2">Contact</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
