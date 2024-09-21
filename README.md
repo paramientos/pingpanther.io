@@ -31,10 +31,6 @@ ping-panther-website/
 ├── index.html
 ├── about-us.html
 ├── contact.html
-├── css/
-│   └── custom-styles.css
-├── js/
-│   └── main.js
 └── images/
 ```
 
@@ -42,7 +38,7 @@ ping-panther-website/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/ping-panther-website.git
+   git clone https://github.com/paramientos/pingpanther.io.git
    ```
 
 2. Open `index.html` in your web browser to view the site locally.
