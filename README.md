@@ -72,8 +72,6 @@ We welcome contributions! Here's how you can help:
 2. 🔧 Make your changes
 3. 📫 Submit a pull request
 
-Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
