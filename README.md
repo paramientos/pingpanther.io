@@ -82,9 +82,9 @@ This project is open source and available under the [MIT License](LICENSE).
 
 Got questions or need support? Reach out to us!
 
-- 📧 Email: support@pingpanther.com
-- 🌐 Website: [www.pingpanther.com](https://www.pingpanther.com)
-- 🐦 Twitter: [@PingPantherIO](https://twitter.com/PingPantherIO)
+- 📧 Email: hello@pingpanther.io
+- 🌐 Website: [www.pingpanther.com](https://pingpanther.io)
+- 🐦 Twitter: [@PingPantherIO](https://twitter.com/pingpantherio)
 
 ---
 
